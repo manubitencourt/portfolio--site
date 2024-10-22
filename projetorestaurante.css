@@ -1,0 +1,19 @@
+#imgrestaurante{
+    width: 30%;
+    margin-top: 10vh;
+}
+#imgcodigo{
+    width: 30%;
+}
+#prestaurante{
+   
+   margin-top: -10vh;
+    margin-right: 85vh;
+    margin-left: 50vh;
+    
+}
+#pcodigo{
+    float: inline-end;
+    margin-top: 23vh;
+    margin-right: 115vh ;
+}

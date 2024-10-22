@@ -1,0 +1,18 @@
+#imgloja{
+    width: 30%;
+    margin-top: 20vh;
+}
+#imgcodigo{
+    width: 30%;
+}
+#ploja{
+    float: inline-end;
+    margin-top: 30vh;
+    margin-right: 85vh;
+    
+}
+#pcodigo{
+    float: inline-end;
+    margin-top: 23vh;
+    margin-right: 115vh;
+}

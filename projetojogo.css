@@ -1,0 +1,19 @@
+#imgcodigo{
+    width: 30%;
+}
+#imgjogo{
+    width: 30%;
+    margin-top: 20vh;
+}
+#pjogo{
+    float: inline-end;
+    margin-top: 23vh;
+    margin-right: 20vh;
+    
+}
+#pcodigo{
+    float: inline-end;
+    margin-top: 23vh;
+    margin-right: 110vh;
+}
+

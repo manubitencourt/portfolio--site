@@ -1,0 +1,52 @@
+/* h1{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#fraseImpacto{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+u{
+    color: blueviolet;
+}
+#nossaHistoria{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: inline;
+}
+
+
+#historia{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    margin-bottom: 100px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+} */
+h1{
+    background-color: palevioletred;
+    
+}
+nav a {
+    border: 2px solid pink;
+    text-decoration: none;
+    color: red;
+}
+section img:hover{
+    width: 650px;
+    border-radius: 15px;
+
+}
+img{
+    border-radius: 15px;
+}
+footer{
+    background-color: palevioletred;
+    color: rgb(58, 57, 57);
+}

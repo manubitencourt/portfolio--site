@@ -1,0 +1,94 @@
+
+h1{
+    display: inline-block;
+    border-radius: 5%;
+    margin-right: 20vh;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+}
+
+header{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(230, 206, 253);
+}
+nav{
+    padding: 0.5rem;
+    margin-bottom: 0vh;
+}
+nav a{
+    color: rgb(53, 50, 50);
+    background-color: rgb(223, 154, 166);
+    border-radius: 5vh;
+    text-decoration: none;
+
+}
+footer{
+    background-color: rgb(230, 206, 253);
+    margin-top: 70vh;
+}
+#logofooter{
+    width: 8%;
+    border-radius: 3vh;
+    margin-left: 95vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 10%;
+    border-radius: 3vh;
+    float: inline-start;
+}
+img:hover {
+    transform: scale(1.05);
+}
+#restaurante{
+    margin-top: 20px;
+    margin-left: 35vh;
+   
+}
+p{
+    margin-left: 20vh;
+    width: 30%;
+}
+#loja{
+    text-align: right;
+    border-radius: 3vh;
+    margin-right: 20vh;
+    margin-top: -40vh;
+}
+#descricaoloja{
+    margin-left: 110vh;
+
+}
+#jogo{
+    border-radius: 3vh;
+    margin-top: 20vh;
+    margin-left: 80vh;
+   
+}
+#descricaojogo{
+    margin-top: 5vh;
+    float: inline-end;
+    margin-right: 40vh;
+    width: 50%;
+}
+#informacoesjogo{
+    float: inline-end;
+    margin-top: 10vh;
+    margin-right: -36vh;
+    
+}
+#informacoesloja{
+    float: inline-end;
+    margin-right: 35vh;
+}
+#informacoesrestaurante{
+    margin-left: 37vh;
+
+}

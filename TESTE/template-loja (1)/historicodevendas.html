@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Controle de Estoque</title>
+    <link rel="stylesheet" type="text/css" href="paginadevendas.css"
+</head>
+<body>
+    <center>
+    <div>
+        <h1>Beleza na medida</h1>
+    </div>
+   </center>
+    
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+        <a href="paginadevendas.html">Página de Vendas</a>
+        <a href="historicodevendas.html">Histórico de Vendas</a>
+    </nav>
+    <br>
+    <form>
+        <h2>Histórico de Vendas</h2>
+        <div>
+            <label for="produto">Produto:</label>
+            <select id="produto" name="produto">
+            <option value="Cropped amarelo decotado">Cropped amarelo decotado</option>
+            <option value="Saia na cor preta, rosa e azul">Saia na cor preta, rosa e azul</option>
+            <option value="calca">Calça Jeans</option>
+            <option value="vestido">Vestido na cor branca, preta e azul claro</option>
+            <option value="tenis">Tênis na cor azul, preta, branca e rosa</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="funcionario">Funcionário responsável pela venda:</label>
+            <select id="funcionario" name="funcionario">
+            <option value="laura">Laura (caixa/supervisora)</option>
+            <option value="manuela">Manuela (proprietária)</option>
+            <option value="natalia">Natália (vendedora)</option>
+            <option value="pedro">Pedro (vendedor)</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="valor">Valor total da compra (R$):</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label>Forma de pagamento:</label><br>
+            <input type="radio" id="cartao" name="pagamento" value="cartao">
+            <label for="cartao">Cartão de crédito</label><br>
+            <input type="radio" id="a-vista" name="pagamento" value="a-vista">
+            <label for="a-vista">À vista (pix ou cartão de débito)</label><br>
+        </div>
+        <br>
+        <div>
+            <label for="data-venda">Data da venda (por extenso):</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="horario">Horário da venda:</label>
+            <input type="time" id="horario" name="horario">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </div>
+        <br>
+    </form>

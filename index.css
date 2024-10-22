@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#fotomanu {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    margin-top: -3vh;
+    margin-left: 15vh;
+}
+ 
+img:hover {
+    transform: scale(1.05);
+}
+h1{
+    display: inline-block;
+    border-radius: 5%;
+    margin-right: 20vh;
+    margin-top: 3vh;
+}
+h2{
+    display: inline-block;
+}
+
+header{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(230, 206, 253);
+}
+nav{
+    padding: 0.5rem;
+    margin-bottom: 0vh;
+}
+nav a{
+    color: rgb(53, 50, 50);
+    background-color: rgb(223, 154, 166);
+    border-radius: 5vh;
+    text-decoration: none;
+
+}
+
+#primeira_section{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+main{
+    width: 100%;
+    height: 82vh;
+}
+
+
+#segunda_section{
+    width: 40%;
+    float: inline-start;
+    margin-left: 15vh;
+    margin-top: 15vh;
+
+}
+#terceira_section{
+    display: inline-block;
+    width: 45%;
+    
+}
+#logo{
+    width: 10%;
+    border-radius: 3vh;
+    float: inline-start;
+}
+#tituloformacoes{
+    background-color: rgb(230, 206, 253);
+    border-radius: 3vh;
+    margin-left: 90vh;
+    margin-bottom: 7vh;
+    margin-top: 10vh;
+}
+ul{
+    margin-left: 75vh;
+}
+#quarta_section h2{
+    background-color: rgb(230, 206, 253);
+    border-radius: 3vh;
+    margin-left: 90vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+footer{
+    background-color: rgb(230, 206, 253);
+    margin-top: 80vh;
+}
+#logofooter{
+    width: 8%;
+    border-radius: 3vh;
+    margin-left: 95vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}

@@ -1,0 +1,16 @@
+h1{
+    color: palevioletred;
+}
+nav a {
+    border: 2px solid pink;
+    text-decoration: none;
+    color: red;
+}
+h2{
+    color: black;
+    background-color: rgb(221, 128, 144);
+    display: inline-block;
+}
+table{
+    background-color: palevioletred;
+}
